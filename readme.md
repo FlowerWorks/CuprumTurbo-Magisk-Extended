@@ -1,15 +1,12 @@
-## CuprumTurbo Scheduler
-一个简单可靠的性能调度.  
-`A Simple and Reliable Performance Scheduler.`  
-#### 项目介绍  
-- 通过识别使用场景动态进行性能调控以改善流畅度和能效.  
-- 支持安卓8-14的arm64设备.  
-- 软件本体使用C++语言编写, 自身性能开销较小.  
-- 支持通过提供的APP/magisk模块方式自动配置运行, 可以自由修改为其他启动方式.  
-- 支持多种调度模式, 配合CuToolbox APP可以实现动态模式切换.  
-- 在只使用调度本体时不需要改动任何系统文件和注入运行中的进程.  
-- 支持JSON格式的自定义配置, 详见[自定义配置开发文档](https://github.com/chenzyadb/CuprumTurbo-Scheduler/blob/main/docs/config_dev_helper.md).  
-#### 使用的开源项目  
-- [Simple-JsonObject](https://github.com/chenzyadb/Simple-JsonObject) by chenzyadb  
-- [CuLogger](https://github.com/chenzyadb/CuLogger) by chenzyadb  
-- [CuSimpleMatch](https://github.com/chenzyadb/CuSimpleMatch) by chenzyadb  
+# CuprumTurbo Scheduler Extended
+基于 CuprumTurbo Scheduler 的 Magisk 模块提供一些扩展功能.
+# 营业执照
+未改动的文件均以 BSD-3 进行共享，经 FlowerWorks 修改或新建的文件均以 WTFPL 进行共享.    
+总而言之，WTFPL 允许你对本仓库所有文件进行如下操作：
+- 用这些文件做你的东西，我们他妈的一概不管（这真的是 WTFPL 的零条款）
+
+![GitHub License](https://img.shields.io/github/license/FlowerWorks/CuprumTurbo-Magisk-Extended?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Maintain-Sunflower-blue?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Powered_by_FlowerWorks-A21538?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Apodidae_Extend-8A2BE2?style=for-the-badge)
+
