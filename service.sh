@@ -314,5 +314,6 @@ SCRIPT_PATH=$(dirname $0)
 ${SCRIPT_PATH}/CuDaemon -R "${SCRIPT_PATH}/config.json" "/sdcard/Android/ct/cur_mode.txt" "/sdcard/Android/ct/scheduler.log"
 
 chmod +x ${SCRIPT_PATH}/Extension/PerAppSwitch.sh
+sh ${SCRIPT_PATH}//Extension/PerAppSwitch.sh
 
 exit 0
